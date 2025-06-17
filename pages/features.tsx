@@ -1,4 +1,4 @@
-\import React from "react";
+import React from "react";
 import { CheckCircle } from "lucide-react";
 
 export default function FeaturesPage() {
@@ -56,3 +56,4 @@ export default function FeaturesPage() {
     </div>
   );
 }
+
