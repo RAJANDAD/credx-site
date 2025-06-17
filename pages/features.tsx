@@ -1,5 +1,4 @@
 import React from "react";
-import { CheckCircle } from "lucide-react";
 
 export default function FeaturesPage() {
   const features = [
@@ -44,16 +43,5 @@ export default function FeaturesPage() {
         {features.map((feature) => (
           <div key={feature.title} className="bg-slate-900 p-6 rounded-xl shadow-md">
             <div className="flex items-start gap-4">
-              <CheckCircle className="text-green-400 mt-1" />
-              <div>
-                <h2 className="text-xl font-semibold mb-1">{feature.title}</h2>
-                <p className="text-slate-300 text-sm">{feature.description}</p>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
+              <span className
 
